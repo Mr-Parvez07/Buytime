@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "image": "galaxy m16.png",
+        "title": "Galaxy M16",
+        "price": "Rs.12,000",
+        "description":"Samsung Galaxy M16 5G (Mint Green, 6GB RAM, 128 GB Storage) MediaTek Dimensity 6300 AnTuTu Score 422K+  Super Amoled Display  25W Fast Charging  6 Gen. of OS Upgrades  Without Charger"
+    },
+    {
+        "id": 2,
+        "image": "readme note13.png",
+        "title": "Readme Note13 Pro",
+        "price": "Rs.13,000",
+        "description":"Redmi Note 13 Pro+ (Fusion Black, 12GB RAM, 256GB Storage) | World's First Mediatek 7200 Ultra 5G | 200MP Hi-Res Camera | 1.5K Curved AMOLED | 120W HyperCharge"
+    },
+    {
+        "id": 3,
+        "image": "realme 16.png",
+        "title": "Realme 13",
+        "price": "Rs.12,500",
+        "description":"realme 13 5G (Dark Purple, 8GB RAM, 128GB Storage) | Expandable Upto 2TB | Up to 18GB Dynamic RAM | 50MP AI Dual Camera | 6.72 AMOLED Display | 45W Ultra Charging | Dimensity 6300 Processor"
+    },
+    {
+        "id": 4,
+        "image": "oneplus nord.png",
+        "title": "OnePlus Nord CE",
+        "price": "Rs.14,500",
+        "description":"realme 13 5G (Dark Purple, 8GB RAM, 128GB Storage) | Expandable Upto 2TB | Up to 18GB Dynamic RAM | 50MP AI Dual Camera | 6.72 AMOLED Display | 45W Ultra Charging | Dimensity 6300 Processor"
+
+    },
+    {
+        "id": 5,
+        "image": "lava blaze.png",
+        "title": "Lava Blaze",
+        "price": "Rs.13,500",
+        "description":"Lava Blaze Duo 5G (Artic White, 6GB RAM, 128GB Storage) |Segment's First Secondary Screen|120 Hz Curved Amoled Display | 64 MP Camera (Sony Sensor) | MediaTek Dimensity 7025 Processor"
+    },
+    {
+        "id": 6,
+        "image": "iqoo z9.png",
+        "title": "iqoo Z9",
+        "price": "Rs.22,000",
+        "description":"iQOO Z9s Pro 5G (Luxe Marble, 8Gb Ram, 128Gb Storage) | Snapdragon 7 Gen 3 Processor |120 Hz Curved Amoled Display with 4500 Nits Local Peak Brightness | 5500 Mah Battery | Ai Erase, White"
+    },
+    {
+        "id": 7,
+        "image": "moto g45.png",
+        "title": "Moto g45",
+        "price": "Rs.20,000",
+        "description":"Motorola G45 5G (Brilliant Blue, 8GB RAM, 128GB Storage)"
+    },
+    {
+        "id": 8,
+        "image": "nothing 2a.png",
+        "title": "Nothing 2a",
+        "price": "Rs.24,500",
+        "description":"Nothing Phone (2a) 5G (Black, 8GB RAM, 128GB Storage) | 6.7 AMOLED Display | 50MP (OIS) + 50 MP | 32 MP Front | Mediatek Dimensity 7200 Pro Processor | Glyph Interface | 45 W Charging 100% in 59 mins"
+    },
+    {
+        "id": 9,
+        "image": "oneplus 12r.png",
+        "title": "OnePlus 12R",
+        "price": "Rs.40,000",
+        "description":"OnePlus 13R | Smarter with OnePlus AI (12GB RAM, 256GB Storage Astral Trail)"
+    },
+    {
+        "id": 10,
+        "image": "sumsung s25.png",
+        "title": "Sumsung S25",
+        "price": "Rs.75,000",
+        "description":"Samsung Galaxy S25 5G AI Smartphone (Icyblue, 12GB RAM, 256GB Storage), 50MP Camera with Galaxy AI"
+    },
+    {
+        "id": 11,
+        "image": "iphone 16pro.png",
+        "title": "iphone 16promax",
+        "price": "Rs.1,20,000",
+        "description":"iPhone 16 ProMax 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; White Titanium"
+    },
+    {
+        "id": 12,
+        "image": "sumsung s25ultra.png",
+        "title": "Sumsung S25Ultra",
+        "price": "Rs.1,15,000",
+        "description":"Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Silverblue, 12GB RAM, 512GB Storage), 200MP Camera, S Pen Included, Long Battery Life"
+    }
+]
+  

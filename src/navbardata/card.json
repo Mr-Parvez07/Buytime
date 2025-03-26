@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "galaxy m16.png",
+        "title": "Galaxy M16",
+        "price": 12000
+    },
+    {
+        "id": 2,
+        "image": "readme note13.png",
+        "title": "Readme Note13 Pro",
+        "price": 13000
+    },
+    {
+        "id": 3,
+        "image": "realme 16.png",
+        "title": "Realme 13",
+        "price": 12500
+    },
+    {
+        "id": 4,
+        "image": "oneplus nord.png",
+        "title": "OnePlus Nord CE",
+        "price": 14500
+    },
+    {
+        "id": 5,
+        "image": "lava blaze.png",
+        "title": "Lava Blaze",
+        "price": 13500
+    },
+    {
+        "id": 6,
+        "image": "iqoo z9.png",
+        "title": "iqoo Z9",
+        "price": 22000
+    },
+    {
+        "id": 7,
+        "image": "moto g45.png",
+        "title": "Moto g45",
+        "price": 20000
+    },
+    {
+        "id": 8,
+        "image": "nothing 2a.png",
+        "title": "Nothing 2a",
+        "price": 24500
+    },
+    {
+        "id": 9,
+        "image": "oneplus 12r.png",
+        "title": "OnePlus 12R",
+        "price": 40000
+    },
+    {
+        "id": 10,
+        "image": "sumsung s25.png",
+        "title": "Sumsung S25",
+        "price": 65000
+    },
+    {
+        "id": 11,
+        "image": "iphone 16pro.png",
+        "title": "iphone 16promax",
+        "price": 120000
+    },
+    {
+        "id": 12,
+        "image": "sumsung s25ultra.png",
+        "title": "Sumsung S25Ultra",
+        "price": 115000
+    }
+]

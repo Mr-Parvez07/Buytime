@@ -1,0 +1,78 @@
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #000000;
+  }
+  .navbar:hover{
+    background-color: rgb(145, 148, 169);
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .ms-4{
+    margin-right: 10px;
+  }
+  
+  .square-pill{
+    margin-right: 20px;
+    color: black;
+  }
+ 
+  .form-control {
+    width: 250px;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+
+  .cart-badge {
+    position: absolute;
+    top: -3px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .ms-4 {
+    font-size: 22px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .form-control {
+      width: 100%;
+    }
+  
+    .btn-light {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .cart-badge {
+      padding: 3px 6px;
+      font-size: 10px;
+    }
+  }
+  

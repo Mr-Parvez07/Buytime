@@ -1,0 +1,225 @@
+.product-detail-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  margin: auto;
+}
+
+.product-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  background: #f8f8f8;
+  padding: 10px;
+}
+
+.product-info {
+  text-align: left;
+  flex: 1;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-id,
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Buttons section */
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background: #ffcc00;
+  color: black;
+}
+
+.btn-secondary:hover {
+  background: #e6b800;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .product-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-info {
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 14px;
+  }
+}
+
+
+
+/* Modal Overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Modal Box */
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  animation: scaleIn 0.3s ease-in-out;
+}
+
+/* Modal Title */
+.modal-content h2 {
+  color: #28a745; /* Green checkmark color */
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Modal Buttons */
+.modal-content button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal-content .btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.modal-content .btn-primary:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.modal-content .btn-secondary {
+  background: #ffcc00;
+  color: black;
+}
+
+.modal-content .btn-secondary:hover {
+  background: #e6b800;
+  transform: scale(1.05);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Scale-in Animation */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive - Adjust modal size for smaller screens */
+@media (max-width: 480px) {
+  .modal-content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .modal-content h2 {
+    font-size: 18px;
+  }
+
+  .modal-content button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
